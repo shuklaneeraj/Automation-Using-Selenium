@@ -1,0 +1,2480 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>IAS Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@29e68753bc6b941da6639f317e34da1d2aa9fdfb/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Oct 1, 2021 08:20:26 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">System</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Login_GSD_CSC</p>
+            <p class="text-sm"><span>20:20:28 PM</span> / <span>30:00:645</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">Login_GSD_CSC</h5>
+<span class='badge badge-success'>10.01.2021 20:20:28</span>
+<span class='badge badge-danger'>10.01.2021 20:20:29</span>
+<span class='badge badge-default'>30:00:645</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:20:29 PM</td>
+        <td>
+          launch Application
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">SFDC_KM_TB_CreateArticle_Knowledge</p>
+            <p class="text-sm"><span>20:21:30 PM</span> / <span>30:00:000</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
+<h5 class="test-status text-pass">SFDC_KM_TB_CreateArticle_Knowledge</h5>
+<span class='badge badge-success'>10.01.2021 20:21:30</span>
+<span class='badge badge-danger'>10.01.2021 20:21:30</span>
+<span class='badge badge-default'>30:00:000</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div>          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">KM_Function</p>
+            <p class="text-sm"><span>20:21:30 PM</span> / <span>36:16:270</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
+<h5 class="test-status text-pass">KM_Function</h5>
+<span class='badge badge-success'>10.01.2021 20:21:30</span>
+<span class='badge badge-danger'>10.01.2021 20:27:46</span>
+<span class='badge badge-default'>36:16:270</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:30 PM</td>
+        <td>
+          Click onCases
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:21:37 PM</td>
+        <td>
+          Clicked on  Cases Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:42 PM</td>
+        <td>
+          Click onKnowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:21:44 PM</td>
+        <td>
+          Clicked on  Knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:21:55 PM</td>
+        <td>
+          Click onSelect List View
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:21:56 PM</td>
+        <td>
+          Clicked on  Select List View Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:22:02 PM</td>
+        <td>
+          Click onSelect Draft Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:22:03 PM</td>
+        <td>
+          Clicked on  Select Draft Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:22:09 PM</td>
+        <td>
+          Click onArrow Down
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:22:09 PM</td>
+        <td>
+          Clicked on  Arrow Down Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:22:19 PM</td>
+        <td>
+          Click on Clicked New Article Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:22:20 PM</td>
+        <td>
+          Clicked on   Clicked New Article Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:22:43 PM</td>
+        <td>
+          Click onInformation Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:22:44 PM</td>
+        <td>
+          Clicked on  Information Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:22:47 PM</td>
+        <td>
+          Enter HPE ProLiant - Character1 intitlefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:22:50 PM</td>
+        <td>
+          HPE ProLiant - Character1 entered in title field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:12 PM</td>
+        <td>
+          Clear Clear titlefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:14 PM</td>
+        <td>
+           ClearedClear title field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:14 PM</td>
+        <td>
+          Enter testing 01131 intitlefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:18 PM</td>
+        <td>
+          testing 01131 entered in title field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:28 PM</td>
+        <td>
+          Enter Test inSummaryfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:32 PM</td>
+        <td>
+          Test entered in Summary field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:35 PM</td>
+        <td>
+          Select DisClosure from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:35 PM</td>
+        <td>
+          DisClosure is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:38 PM</td>
+        <td>
+          Click onAttributes Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:39 PM</td>
+        <td>
+          Clicked on  Attributes Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:42 PM</td>
+        <td>
+          Select Product Group from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:42 PM</td>
+        <td>
+          Product Group is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:45 PM</td>
+        <td>
+          Select Product Queue from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:46 PM</td>
+        <td>
+          Product Queue is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:51 PM</td>
+        <td>
+          Click onEnvironment Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:51 PM</td>
+        <td>
+          Clicked on  Environment Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:23:54 PM</td>
+        <td>
+          Enter Test env inEnvironmentfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:23:57 PM</td>
+        <td>
+          Test env entered in Environment field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:00 PM</td>
+        <td>
+          Click onIssue Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:00 PM</td>
+        <td>
+          Clicked on  Issue Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:03 PM</td>
+        <td>
+          Enter Test Issue inIssuefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:06 PM</td>
+        <td>
+          Test Issue entered in Issue field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:09 PM</td>
+        <td>
+          Click onResolution Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:09 PM</td>
+        <td>
+          Clicked on  Resolution Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:12 PM</td>
+        <td>
+          Enter Test Resolution inResolution Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:15 PM</td>
+        <td>
+          Test Resolution entered in Resolution Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:19 PM</td>
+        <td>
+          Enter https://www.google.com/ inResolution Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:22 PM</td>
+        <td>
+          https://www.google.com/ entered in Resolution Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:25 PM</td>
+        <td>
+          Click onDisclaimer Check Box
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:26 PM</td>
+        <td>
+          Clicked on  Disclaimer Check Box Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:36 PM</td>
+        <td>
+          Enter Confidential content inInternal Notesfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:39 PM</td>
+        <td>
+          Confidential content entered in Internal Notes field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:24:47 PM</td>
+        <td>
+          Click onSave Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:24:47 PM</td>
+        <td>
+          Clicked on  Save Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:02 PM</td>
+        <td>
+          Click onswitch to article tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:25:02 PM</td>
+        <td>
+          Clicked on  switch to article tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:23 PM</td>
+        <td>
+          Verify Disclaimer Text
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:25:23 PM</td>
+        <td>
+          One or more of the links above will take you outside the Hewlett-Packard Enterprise web site. HPE does not control and is not responsible for information outside of the HPE web site. presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:40 PM</td>
+        <td>
+          Verify Validation Status
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:25:40 PM</td>
+        <td>
+          Work In Progress presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:25:48 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:25:49 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:04 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:04 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:31 PM</td>
+        <td>
+          Click onClose Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:32 PM</td>
+        <td>
+          Clicked on  Close Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:38 PM</td>
+        <td>
+          Click onClick edit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:39 PM</td>
+        <td>
+          Clicked on  Click edit button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:45 PM</td>
+        <td>
+          Enter AM305A inProduct Taggingfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:47 PM</td>
+        <td>
+          AM305A entered in Product Tagging field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:50 PM</td>
+        <td>
+          Click onClick Seach Botton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:51 PM</td>
+        <td>
+          Clicked on  Click Seach Botton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:26:55 PM</td>
+        <td>
+          Click onSearch Products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:26:55 PM</td>
+        <td>
+          Clicked on  Search Products Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:27:01 PM</td>
+        <td>
+          Click onSave Close
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:27:01 PM</td>
+        <td>
+          Clicked on  Save Close Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:27:09 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:27:34 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:27:46 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:27:46 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">SFDC_KM_CreateArticle_Knowledge_SecondLevelApprove</p>
+            <p class="text-sm"><span>20:28:04 PM</span> / <span>43:27:978</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">SFDC_KM_CreateArticle_Knowledge_SecondLevelApprove</h5>
+<span class='badge badge-success'>10.01.2021 20:28:04</span>
+<span class='badge badge-danger'>10.01.2021 20:41:32</span>
+<span class='badge badge-default'>43:27:978</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:06 PM</td>
+        <td>
+          Click onClicking on Assign Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:28:07 PM</td>
+        <td>
+          Clicked on  Clicking on Assign Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:13 PM</td>
+        <td>
+          Click onClose
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:28:14 PM</td>
+        <td>
+          Clicked on  Close Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:20 PM</td>
+        <td>
+          Enter ram chalasani inAsignee Namefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:28:23 PM</td>
+        <td>
+          ram chalasani entered in Asignee Name field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:28:30 PM</td>
+        <td>
+          Click onClicking on Save Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:28:33 PM</td>
+        <td>
+          Clicked on  Clicking on Save Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:22 PM</td>
+        <td>
+          Click onSecond Level Approval Edit
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:31:23 PM</td>
+        <td>
+          Clicked on  Second Level Approval Edit Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:38 PM</td>
+        <td>
+          Click onSecond Level Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:31:38 PM</td>
+        <td>
+          Clicked on  Second Level Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:48 PM</td>
+        <td>
+          Click onSave Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:31:48 PM</td>
+        <td>
+          Clicked on  Save Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:09 PM</td>
+        <td>
+          Click onclicked More
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:09 PM</td>
+        <td>
+          Clicked on  clicked More Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:17 PM</td>
+        <td>
+          Click onclicked AQI
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:18 PM</td>
+        <td>
+          Clicked on  clicked AQI Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:26 PM</td>
+        <td>
+          Click onclicked Good Radio1 Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:26 PM</td>
+        <td>
+          Clicked on  clicked Good Radio1 Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:32 PM</td>
+        <td>
+          Click onclicked Good Radio2 Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:33 PM</td>
+        <td>
+          Clicked on  clicked Good Radio2 Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:39 PM</td>
+        <td>
+          Click onclicked Good Radio3 Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:40 PM</td>
+        <td>
+          Clicked on  clicked Good Radio3 Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:46 PM</td>
+        <td>
+          Click onclicked Good Radio4 Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:46 PM</td>
+        <td>
+          Clicked on  clicked Good Radio4 Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:32:56 PM</td>
+        <td>
+          Click onClicking AQI Save
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:32:57 PM</td>
+        <td>
+          Clicked on  Clicking AQI Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:33:17 PM</td>
+        <td>
+          Click onDropDown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:33:36 PM</td>
+        <td>
+          Clicked on  DropDown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:33:46 PM</td>
+        <td>
+          Click onHome
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:33:47 PM</td>
+        <td>
+          Clicked on  Home Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:33:57 PM</td>
+        <td>
+          Click onClicking on Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:34:05 PM</td>
+        <td>
+          Clicked on  Clicking on Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:34:20 PM</td>
+        <td>
+          Click onApprove
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:34:26 PM</td>
+        <td>
+          Clicked on  Approve Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:34:41 PM</td>
+        <td>
+          Enter Approved inApprove Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:34:43 PM</td>
+        <td>
+          Approved entered in Approve Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:34:46 PM</td>
+        <td>
+          Click onClicking on Approve Botton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:34:46 PM</td>
+        <td>
+          Clicked on  Clicking on Approve Botton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:30 PM</td>
+        <td>
+          Click onCases
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:35:31 PM</td>
+        <td>
+          Clicked on  Cases Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:36 PM</td>
+        <td>
+          Click onKnowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:35:37 PM</td>
+        <td>
+          Clicked on  Knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:45 PM</td>
+        <td>
+          Click onSelect List View
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:35:46 PM</td>
+        <td>
+          Clicked on  Select List View Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:52 PM</td>
+        <td>
+          Click onSelect Draft Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:35:52 PM</td>
+        <td>
+          Clicked on  Select Draft Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:35:58 PM</td>
+        <td>
+          Click onSort Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:35:59 PM</td>
+        <td>
+          Clicked on  Sort Date Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:07 PM</td>
+        <td>
+          Click onSelect Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:08 PM</td>
+        <td>
+          Clicked on  Select Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:16 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:19 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:27 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:27 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:47 PM</td>
+        <td>
+          Click onRelated tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:48 PM</td>
+        <td>
+          Clicked on  Related tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:36:58 PM</td>
+        <td>
+          Click onApproval history
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:36:58 PM</td>
+        <td>
+          Clicked on  Approval history Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:21 PM</td>
+        <td>
+          Click onClick Recall
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:23 PM</td>
+        <td>
+          Clicked on  Click Recall Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:33 PM</td>
+        <td>
+          Enter Recall inrecall Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:35 PM</td>
+        <td>
+          Recall entered in recall Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:38 PM</td>
+        <td>
+          Click onRecall-Related Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:39 PM</td>
+        <td>
+          Clicked on  Recall-Related Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:37:47 PM</td>
+        <td>
+          Click onClosed Approval history Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:37:51 PM</td>
+        <td>
+          Clicked on  Closed Approval history Tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:38:10 PM</td>
+        <td>
+          Enter Creating Small Article - Test inSearchfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:38:14 PM</td>
+        <td>
+          Creating Small Article - Test entered in Search field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:38:25 PM</td>
+        <td>
+          Click onknowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:38:37 PM</td>
+        <td>
+          Clicked on  knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:12 PM</td>
+        <td>
+          Click onknowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:39:20 PM</td>
+        <td>
+          Clicked on  knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:30 PM</td>
+        <td>
+          Click onSelect Published Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:39:30 PM</td>
+        <td>
+          Clicked on  Select Published Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:40 PM</td>
+        <td>
+          Click onVersion
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:39:43 PM</td>
+        <td>
+          Clicked on  Version Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:39:54 PM</td>
+        <td>
+          Click onDetails
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:39:54 PM</td>
+        <td>
+          Clicked on  Details Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:04 PM</td>
+        <td>
+          Click onDrop Down Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:40:04 PM</td>
+        <td>
+          Clicked on  Drop Down Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:12 PM</td>
+        <td>
+          Click onEdit Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:40:13 PM</td>
+        <td>
+          Clicked on  Edit Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:21 PM</td>
+        <td>
+          Click onEdit Draft
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:40:21 PM</td>
+        <td>
+          Clicked on  Edit Draft Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:31 PM</td>
+        <td>
+          Click onEdit Summary
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:40:37 PM</td>
+        <td>
+          Clicked on  Edit Summary Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:45 PM</td>
+        <td>
+          Enter test inSummary Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:40:53 PM</td>
+        <td>
+          test entered in Summary Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:40:59 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:01 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:09 PM</td>
+        <td>
+          Click onsubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:09 PM</td>
+        <td>
+          Clicked on  submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:17 PM</td>
+        <td>
+          Enter test inSubmit for Approval Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:23 PM</td>
+        <td>
+          test entered in Submit for Approval Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:31 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:32 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">KM_Function</p>
+            <p class="text-sm"><span>20:28:04 PM</span> / <span>53:16:538</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-pass">KM_Function</h5>
+<span class='badge badge-success'>10.01.2021 20:28:04</span>
+<span class='badge badge-danger'>10.01.2021 20:51:21</span>
+<span class='badge badge-default'>53:16:538</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:29:11 PM</td>
+        <td>
+          Click onClicking on HPE
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:29:40 PM</td>
+        <td>
+          Clicked on  Clicking on HPE Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:30:05 PM</td>
+        <td>
+          Click onCases
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:30:13 PM</td>
+        <td>
+          Clicked on  Cases Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:30:18 PM</td>
+        <td>
+          Click onKnowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:30:19 PM</td>
+        <td>
+          Clicked on  Knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:30:40 PM</td>
+        <td>
+          Click onSelect List View
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:30:40 PM</td>
+        <td>
+          Clicked on  Select List View Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:30:46 PM</td>
+        <td>
+          Click onSelect Draft Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:30:46 PM</td>
+        <td>
+          Clicked on  Select Draft Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:30:52 PM</td>
+        <td>
+          Click onSort Date
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:30:53 PM</td>
+        <td>
+          Clicked on  Sort Date Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:01 PM</td>
+        <td>
+          Click onSelect Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:31:02 PM</td>
+        <td>
+          Clicked on  Select Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:31:18 PM</td>
+        <td>
+          Click onswitch to article tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:31:19 PM</td>
+        <td>
+          Clicked on  switch to article tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:42 PM</td>
+        <td>
+          Click onCases
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:43 PM</td>
+        <td>
+          Clicked on  Cases Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:41:48 PM</td>
+        <td>
+          Click onKnowledge
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:41:49 PM</td>
+        <td>
+          Clicked on  Knowledge Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:27 PM</td>
+        <td>
+          Click onSelect List View
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:42:27 PM</td>
+        <td>
+          Clicked on  Select List View Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:33 PM</td>
+        <td>
+          Click onSelect Draft Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:42:34 PM</td>
+        <td>
+          Clicked on  Select Draft Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:40 PM</td>
+        <td>
+          Click onArrow Down
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:42:40 PM</td>
+        <td>
+          Clicked on  Arrow Down Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:42:50 PM</td>
+        <td>
+          Click on Clicked New Article Button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:42:51 PM</td>
+        <td>
+          Clicked on   Clicked New Article Button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:12 PM</td>
+        <td>
+          Click onInformation Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:12 PM</td>
+        <td>
+          Clicked on  Information Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:15 PM</td>
+        <td>
+          Enter Test 221244 intitlefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:18 PM</td>
+        <td>
+          Test 221244 entered in title field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:28 PM</td>
+        <td>
+          Enter Test for unknown resolution inSummaryfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:31 PM</td>
+        <td>
+          Test for unknown resolution entered in Summary field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:34 PM</td>
+        <td>
+          Select DisClosure from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:34 PM</td>
+        <td>
+          DisClosure is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:37 PM</td>
+        <td>
+          Click onAttributes Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:37 PM</td>
+        <td>
+          Clicked on  Attributes Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:40 PM</td>
+        <td>
+          Select Product Group from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:41 PM</td>
+        <td>
+          Product Group is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:44 PM</td>
+        <td>
+          Select Product Queue from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:44 PM</td>
+        <td>
+          Product Queue is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:49 PM</td>
+        <td>
+          Click onUnknown Resolution
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:50 PM</td>
+        <td>
+          Clicked on  Unknown Resolution Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:53 PM</td>
+        <td>
+          Click onEnvironment Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:53 PM</td>
+        <td>
+          Clicked on  Environment Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:43:56 PM</td>
+        <td>
+          Enter Test env inEnvironmentfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:43:59 PM</td>
+        <td>
+          Test env entered in Environment field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:02 PM</td>
+        <td>
+          Click onIssue Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:02 PM</td>
+        <td>
+          Clicked on  Issue Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:07 PM</td>
+        <td>
+          Enter Test Issue inIssuefield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:10 PM</td>
+        <td>
+          Test Issue entered in Issue field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:15 PM</td>
+        <td>
+          Click onResolution Expand
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:15 PM</td>
+        <td>
+          Clicked on  Resolution Expand Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:20 PM</td>
+        <td>
+          Enter Test Resolution inResolution Textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:24 PM</td>
+        <td>
+          Test Resolution entered in Resolution Text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:32 PM</td>
+        <td>
+          Click onSave Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:32 PM</td>
+        <td>
+          Clicked on  Save Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:52 PM</td>
+        <td>
+          Click onswitch to article tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:53 PM</td>
+        <td>
+          Clicked on  switch to article tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:44:56 PM</td>
+        <td>
+          Click onClicked same here button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:44:56 PM</td>
+        <td>
+          Clicked on  Clicked same here button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:45:08 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:45:09 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:45:17 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:45:18 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:45:35 PM</td>
+        <td>
+          Click onClose Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:45:35 PM</td>
+        <td>
+          Clicked on  Close Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:45:45 PM</td>
+        <td>
+          Click onArticle Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:45:46 PM</td>
+        <td>
+          Clicked on  Article Tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:46:06 PM</td>
+        <td>
+          Click onClick edit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:46:06 PM</td>
+        <td>
+          Clicked on  Click edit button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:46:16 PM</td>
+        <td>
+          Enter Test inResolution textfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:46:20 PM</td>
+        <td>
+          Test entered in Resolution text field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:18 PM</td>
+        <td>
+          Click onSave Article
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:19 PM</td>
+        <td>
+          Clicked on  Save Article Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:34 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:34 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:47:49 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:47:49 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:11 PM</td>
+        <td>
+          Click onClose Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:11 PM</td>
+        <td>
+          Clicked on  Close Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:19 PM</td>
+        <td>
+          Click onClick edit button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:20 PM</td>
+        <td>
+          Clicked on  Click edit button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:28 PM</td>
+        <td>
+          Enter C7G09A inProduct Taggingfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:30 PM</td>
+        <td>
+          C7G09A entered in Product Tagging field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:38 PM</td>
+        <td>
+          Click onClick Search Botton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:39 PM</td>
+        <td>
+          Clicked on  Click Search Botton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:47 PM</td>
+        <td>
+          Click onSearch Products
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:49 PM</td>
+        <td>
+          Clicked on  Search Products Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:48:55 PM</td>
+        <td>
+          Click onClicked on Next button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:48:56 PM</td>
+        <td>
+          Clicked on  Clicked on Next button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:02 PM</td>
+        <td>
+          Click onExpand button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:03 PM</td>
+        <td>
+          Clicked on  Expand button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:09 PM</td>
+        <td>
+          Click onAvailabl OS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:09 PM</td>
+        <td>
+          Clicked on  Availabl OS Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:15 PM</td>
+        <td>
+          Click onCilcked on right Arrow
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:16 PM</td>
+        <td>
+          Clicked on  Cilcked on right Arrow Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:22 PM</td>
+        <td>
+          Click onAvailabl OS
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:22 PM</td>
+        <td>
+          Clicked on  Availabl OS Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:28 PM</td>
+        <td>
+          Click onCilcked on right Arrow
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:28 PM</td>
+        <td>
+          Clicked on  Cilcked on right Arrow Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:34 PM</td>
+        <td>
+          Click onClicked on Next button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:34 PM</td>
+        <td>
+          Clicked on  Clicked on Next button Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:44 PM</td>
+        <td>
+          Click onSave Close
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:49:45 PM</td>
+        <td>
+          Clicked on  Save Close Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:49:53 PM</td>
+        <td>
+          Click onSubmit for Approval
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:24 PM</td>
+        <td>
+          Clicked on  Submit for Approval Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:50:39 PM</td>
+        <td>
+          Click onSubmit for Approval in Popup
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:50:40 PM</td>
+        <td>
+          Clicked on  Submit for Approval in Popup Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:08 PM</td>
+        <td>
+          Click onRelated tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:09 PM</td>
+        <td>
+          Clicked on  Related tab Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>8:51:19 PM</td>
+        <td>
+          Click onClicked on Product tagging
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>8:51:21 PM</td>
+        <td>
+          Clicked on  Clicked on Product tagging Successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">System</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>System</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:20:28 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Login_GSD_CSC</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:21:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>SFDC_KM_TB_CreateArticle_Knowledge</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:21:30 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>KM_Function</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:28:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>SFDC_KM_CreateArticle_Knowledge_SecondLevelApprove</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:28:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>KM_Function</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Oct 1, 2021 08:20:26 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Oct 1, 2021 08:51:44 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='49%'><b>144</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>145</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>System</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 144,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 145
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

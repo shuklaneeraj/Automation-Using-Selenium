@@ -1,0 +1,3750 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>IAS Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@29e68753bc6b941da6639f317e34da1d2aa9fdfb/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 20, 2021 03:22:16 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">System</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Login_GSD_CSC</p>
+            <p class="text-sm"><span>15:22:17 PM</span> / <span>30:00:056</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">Login_GSD_CSC</h5>
+<span class='badge badge-success'>04.20.2021 15:22:17</span>
+<span class='badge badge-danger'>04.20.2021 15:22:17</span>
+<span class='badge badge-default'>30:00:056</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:22:17 PM</td>
+        <td>
+          launch Application
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="System"
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">SFDC_CaseCreation_Loop</p>
+            <p class="text-sm"><span>15:22:47 PM</span> / <span>24:26:175</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
+<h5 class="test-status text-pass">SFDC_CaseCreation_Loop</h5>
+<span class='badge badge-success'>04.20.2021 15:22:47</span>
+<span class='badge badge-danger'>04.20.2021 16:17:13</span>
+<span class='badge badge-default'>24:26:175</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> System</span></div>
+</div>
+</div>    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='C:\IAS\IAS_Selenium\Generated Tests\Automation_Scripts\Reports\Screenshots\CLASS_NAME\FromPreviousCase1.png' src="C:\IAS\IAS_Selenium\Generated Tests\Automation_Scripts\Reports\Screenshots\CLASS_NAME\FromPreviousCase1.png">
+    
+    </div></div>
+<div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:22:51 PM</td>
+        <td>
+          Click onClose 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:22:51 PM</td>
+        <td>
+          Clicked on  Close  Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:22:54 PM</td>
+        <td>
+          Click onNewLightingButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:22:55 PM</td>
+        <td>
+          Clicked on  NewLightingButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:03 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:08 PM</td>
+        <td>
+          Entitlement is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:08 PM</td>
+        <td>
+          Click onEntlLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:09 PM</td>
+        <td>
+          Clicked on  EntlLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:14 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:14 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:17 PM</td>
+        <td>
+          Enter SGH233ATKK inSlrNOfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:17 PM</td>
+        <td>
+          SGH233ATKK entered in SlrNO field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:17 PM</td>
+        <td>
+          Select Country from the dropdown
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:18 PM</td>
+        <td>
+          Country is selected from dropdown Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:18 PM</td>
+        <td>
+          Click onEntlMntChk
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:18 PM</td>
+        <td>
+          Clicked on  EntlMntChk Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:33 PM</td>
+        <td>
+          Verify is Element Visible_  ProductDescription
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:33 PM</td>
+        <td>
+          ProductDescription is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:23:37 PM</td>
+        <td>
+          Click onDone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:23:37 PM</td>
+        <td>
+          Clicked on  Done Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:24:17 PM</td>
+        <td>
+          Click onLocation
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:24:18 PM</td>
+        <td>
+          Clicked on  Location Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:24:18 PM</td>
+        <td>
+          Click FromPreviousCase1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:24:18 PM</td>
+        <td>
+          FromPreviousCase1 Clicked Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:24:19 PM</td>
+        <td>
+          Screenshot below: com.aventstack.extentreports.ExtentTest@7899de11
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:24:23 PM</td>
+        <td>
+          Click onFromPreviousCase2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:24:23 PM</td>
+        <td>
+          Clicked on  FromPreviousCase2 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:24:27 PM</td>
+        <td>
+          Click onUpdateCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:24:27 PM</td>
+        <td>
+          Clicked on  UpdateCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:07 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:07 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:07 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:08 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:18 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:18 PM</td>
+        <td>
+          5326961330 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:21 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:21 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:26 PM</td>
+        <td>
+          Enter Test1 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:27 PM</td>
+        <td>
+          Test1 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:32 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:32 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:25:45 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:25:47 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:00 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:00 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:03 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:05 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:10 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:10 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:14 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:14 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:24 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:24 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:44 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:47 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:47 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:47 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:27:57 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:27:57 PM</td>
+        <td>
+          5326961339 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:28:00 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:28:01 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:28:06 PM</td>
+        <td>
+          Enter Test2 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:28:06 PM</td>
+        <td>
+          Test2 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:28:11 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:28:12 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:28:24 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:28:26 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:29:39 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:29:39 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:29:42 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:29:43 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:29:48 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:29:49 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:29:53 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:29:53 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:03 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:04 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:24 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:25 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:25 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:25 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:35 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:35 PM</td>
+        <td>
+          5326961344 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:38 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:39 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:44 PM</td>
+        <td>
+          Enter Test3 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:44 PM</td>
+        <td>
+          Test3 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:30:49 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:30:49 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:31:02 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:31:03 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:32:16 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:32:16 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:32:19 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:32:20 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:32:25 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:32:25 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:32:29 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:32:30 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:32:40 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:32:40 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:33:00 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:21 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:21 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:21 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:31 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:31 PM</td>
+        <td>
+          5326961347 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:34 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:34 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:39 PM</td>
+        <td>
+          Enter Test4 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:41 PM</td>
+        <td>
+          Test4 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:46 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:34:47 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:34:59 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:35:02 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:15 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:36:16 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:19 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:36:20 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:25 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:36:25 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:29 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:36:29 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:39 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:36:39 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:36:59 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:00 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:00 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:00 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:10 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:10 PM</td>
+        <td>
+          5326961369 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:13 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:14 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:19 PM</td>
+        <td>
+          Enter Test5 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:19 PM</td>
+        <td>
+          Test5 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:24 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:24 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:37:37 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:37:38 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:38:51 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:38:51 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:38:54 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:38:55 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:00 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:00 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:04 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:04 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:14 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:15 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:35 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:37 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:37 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:37 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:47 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:47 PM</td>
+        <td>
+          5326961374 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:50 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:50 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:39:55 PM</td>
+        <td>
+          Enter Test6 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:39:56 PM</td>
+        <td>
+          Test6 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:01 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:40:01 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:40:14 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:40:14 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:27 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:28 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:31 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:32 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:37 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:39 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:43 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:41:49 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:41:59 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:04 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:24 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:27 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:27 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:28 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:38 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:38 PM</td>
+        <td>
+          5326961383 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:41 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:42 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:47 PM</td>
+        <td>
+          Enter Test7 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:47 PM</td>
+        <td>
+          Test7 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:42:52 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:42:53 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:43:05 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:43:06 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:44:19 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:44:19 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:44:22 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:44:23 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:44:28 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:44:28 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:44:32 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:44:33 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:44:43 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:44:44 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:04 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:05 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:05 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:06 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:16 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:16 PM</td>
+        <td>
+          5326961386 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:19 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:19 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:24 PM</td>
+        <td>
+          Enter Test8 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:25 PM</td>
+        <td>
+          Test8 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:30 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:30 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:45:43 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:45:44 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:46:57 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:46:57 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:00 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:01 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:06 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:06 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:10 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:11 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:21 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:21 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:41 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:44 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:44 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:44 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:54 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:54 PM</td>
+        <td>
+          5326961391 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:47:57 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:47:58 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:48:03 PM</td>
+        <td>
+          Enter Test9 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:48:03 PM</td>
+        <td>
+          Test9 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:48:08 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:48:09 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:48:21 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:48:21 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:49:34 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:49:35 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:49:38 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:49:39 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:49:44 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:49:44 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:49:48 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:49:49 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:49:59 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:49:59 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:19 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:19 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:19 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:20 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:30 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:30 PM</td>
+        <td>
+          5326961395 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:33 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:33 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:38 PM</td>
+        <td>
+          Enter Test10 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:39 PM</td>
+        <td>
+          Test10 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:44 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:44 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:50:56 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:50:57 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:10 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:11 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:14 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:15 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:20 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:20 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:24 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:24 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:34 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:34 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:54 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:58 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:52:58 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:58 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:08 PM</td>
+        <td>
+          5326961400 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:11 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:12 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:17 PM</td>
+        <td>
+          Enter Test11 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:17 PM</td>
+        <td>
+          Test11 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:22 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:23 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:53:35 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:36 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:54:50 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:54:50 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:54:53 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:54:54 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:54:59 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:54:59 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:03 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:03 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:13 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:13 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:33 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:35 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:35 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:36 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:46 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:46 PM</td>
+        <td>
+          5326961403 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:49 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:49 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:55:54 PM</td>
+        <td>
+          Enter Test12 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:55:55 PM</td>
+        <td>
+          Test12 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:56:00 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:56:00 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:56:12 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:56:19 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:57:32 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:32 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:57:35 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:36 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:57:41 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:42 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:57:46 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:47 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:57:57 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:57:57 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:17 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:17 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:17 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:19 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:29 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:29 PM</td>
+        <td>
+          5326961410 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:32 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:32 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:37 PM</td>
+        <td>
+          Enter Test13 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:38 PM</td>
+        <td>
+          Test13 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:43 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:43 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>3:58:56 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:58:59 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:12 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:12 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:15 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:16 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:21 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:21 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:25 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:26 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:36 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:36 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:56 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:57 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:00:57 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:00:58 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:01:08 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:01:08 PM</td>
+        <td>
+          5326961422 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:01:11 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:01:11 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:01:16 PM</td>
+        <td>
+          Enter Test14 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:01:17 PM</td>
+        <td>
+          Test14 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:01:22 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:01:22 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:01:35 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:01:36 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:02:50 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:02:50 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:02:53 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:02:54 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:02:59 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:02:59 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:03 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:04 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:14 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:20 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:40 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:44 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:44 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:44 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:54 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:54 PM</td>
+        <td>
+          5326961429 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:03:57 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:03:58 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:04:03 PM</td>
+        <td>
+          Enter Test15 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:04:06 PM</td>
+        <td>
+          Test15 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:04:11 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:04:11 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:04:23 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:04:28 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:05:41 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:05:41 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:05:44 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:05:45 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:05:50 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:05:50 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:05:54 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:05:54 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:06:04 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:06:05 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:06:25 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:06:53 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:06:53 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:06:54 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:07:04 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:07:04 PM</td>
+        <td>
+          5326961436 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:07:07 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:07:07 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:07:12 PM</td>
+        <td>
+          Enter Test16 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:07:13 PM</td>
+        <td>
+          Test16 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:07:18 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:07:19 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:07:31 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:07:32 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:08:45 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:08:45 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:08:48 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:08:49 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:08:54 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:08:54 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:08:58 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:08:59 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:09 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:09 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:29 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:32 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:32 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:32 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:43 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:43 PM</td>
+        <td>
+          5326961439 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:46 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:46 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:51 PM</td>
+        <td>
+          Enter Test17 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:52 PM</td>
+        <td>
+          Test17 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:09:57 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:09:57 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:10:10 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:10:12 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:11:25 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:11:26 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:11:29 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:11:30 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:11:35 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:11:35 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:11:39 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:11:39 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:11:49 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:11:50 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:10 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:11 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:11 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:12 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:22 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:22 PM</td>
+        <td>
+          5326961448 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:25 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:26 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:31 PM</td>
+        <td>
+          Enter Test18 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:33 PM</td>
+        <td>
+          Test18 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:38 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:39 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:12:51 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:12:53 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:07 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:07 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:10 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:11 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:16 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:16 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:20 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:20 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:30 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:31 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:51 PM</td>
+        <td>
+          Verify is Element Visible_  Summary Tab
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:53 PM</td>
+        <td>
+          Summary Tab is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:14:53 PM</td>
+        <td>
+          Click onSummaryLink
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:14:54 PM</td>
+        <td>
+          Clicked on  SummaryLink Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:15:04 PM</td>
+        <td>
+          Verify caseNumber
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:15:04 PM</td>
+        <td>
+          5326961450 presents in element
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:15:07 PM</td>
+        <td>
+          Click onEditButton
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:15:07 PM</td>
+        <td>
+          Clicked on  EditButton Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:15:12 PM</td>
+        <td>
+          Enter Test19 inSubjectfield
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:15:13 PM</td>
+        <td>
+          Test19 entered in Subject field Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:15:18 PM</td>
+        <td>
+          Click onSave
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:15:19 PM</td>
+        <td>
+          Clicked on  Save Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:15:31 PM</td>
+        <td>
+          Click onclone
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:15:36 PM</td>
+        <td>
+          Clicked on  clone Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:16:49 PM</td>
+        <td>
+          Click oncloseCase
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:16:50 PM</td>
+        <td>
+          Clicked on  closeCase Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:16:53 PM</td>
+        <td>
+          Click onEntlLink1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:16:53 PM</td>
+        <td>
+          Clicked on  EntlLink1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:16:58 PM</td>
+        <td>
+          Verify is Element Visible_  Entitlement Check page is open
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:16:59 PM</td>
+        <td>
+          Entitlement Check page is open is Visible
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:17:03 PM</td>
+        <td>
+          Click onEntlMntChk1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:17:03 PM</td>
+        <td>
+          Clicked on  EntlMntChk1 Successfully.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:17:13 PM</td>
+        <td>
+          Click onDone1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:17:13 PM</td>
+        <td>
+          Clicked on  Done1 Successfully.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">System</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>System</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:22:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Login_GSD_CSC</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:22:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>SFDC_CaseCreation_Loop</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 20, 2021 03:22:16 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 20, 2021 04:17:33 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>2</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>2</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>243</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>243</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>System</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 2,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 243,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 243
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

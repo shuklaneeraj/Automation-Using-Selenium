@@ -1,0 +1,9 @@
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('NAME','username','SdEmailId');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('NAME','pw','SdPsswrd');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('ID','Login','SbxLgn');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('XPATH','//*[@id="brandBand_1"]/div/div/div/div/div[1]/div[1]/div[2]/ul/li[3]/a/div','NlC');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('XPATH','//*[@id="mainDiv1"]/div[1]/p[1]/a','EnL');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('XPATH','//*[@id="pg:FormId:main:serialNo"]','SerlNum');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('ID','username','SalesForceAppEmailID');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('XPATH','//*[@id="pg:FormId:main:countries"]','CntryCode');
+INSERT INTO web_element_data (web_element_type,web_element_value,web_element_property) values ('XPATH','//*[@id="pg:FormId:main:search"]','EnrlmentCheck');
