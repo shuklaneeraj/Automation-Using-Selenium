@@ -185,28 +185,61 @@ public class SFDC_Case_Updated2 {
 		executor.executeScript("arguments[0].click();", OutageNo);
 		Thread.sleep(6000);
 
-		// WebElement IssueNew =
-		// driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
-		WebElement IssueNew = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
-		executor.executeScript("arguments[0].click();", IssueNew);
-		Thread.sleep(3000);
+//		// WebElement IssueNew =
+//		// driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
+//		WebElement IssueNew = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
+//		executor.executeScript("arguments[0].click();", IssueNew);
+//		Thread.sleep(5000);
+//
+//		WebElement IssueNewNo = driver.findElement(By.xpath("(//a[@title='New System'])"));
+//		executor.executeScript("arguments[0].click();", IssueNewNo);
+//		Thread.sleep(5000);
+//
+//		// WebElement IssueClick =
+//		// driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
+//		WebElement IssueClick = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
+//		executor.executeScript("arguments[0].click();", IssueClick);
+//		Thread.sleep(5000);
+//
+//		/**ro.keyPress(KeyEvent.VK_DOWN);
+//		Thread.sleep(1000);
+//		ro.keyPress(KeyEvent.VK_DOWN);
+//		Thread.sleep(2000);
+//		ro.keyPress(KeyEvent.VK_ENTER);
+//		Thread.sleep(2000);
+//		ro.keyPress(KeyEvent.VK_ENTER);
+//		Thread.sleep(2000);**/
+//		
+//
+//		WebElement IssueNewNo1 = driver.findElement(By.xpath("(//a[@title='No'])"));
+//		executor.executeScript("arguments[0].click();", IssueNewNo1);
+//		Thread.sleep(5000);
+        // WebElement IssueNew =
+        // driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
+        WebElement IssueNew = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
+        executor.executeScript("arguments[0].click();", IssueNew);
+        Thread.sleep(2000);
+        
 
-		WebElement IssueNewNo = driver.findElement(By.xpath("(//a[@title='New System'])"));
-		executor.executeScript("arguments[0].click();", IssueNewNo);
-		Thread.sleep(3000);
+        WebElement IssueNewNo = driver.findElement(By.xpath("//body/div[10]/div[1]/ul[1]/li[2]/a[1]"));
+      //  WebElement IssueNewNo = driver.findElement(By.xpath("//a[@title='No']"));
+      //a[@title='No']
+        executor.executeScript("arguments[0].click();", IssueNewNo);
+        Thread.sleep(1000);
 
-		// WebElement IssueClick =
-		// driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
-		WebElement IssueClick = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
-		executor.executeScript("arguments[0].click();", IssueClick);
-		Thread.sleep(3000);
+        // WebElement IssueClick =
+        // driver.findElement(By.xpath("(//a[contains(text(),'--None--')])[3]"));
+//        WebElement IssueClick = driver.findElement(By.xpath("(//a[@class='select'])[9]"));
+//        executor.executeScript("arguments[0].click();", IssueClick);
+//        Thread.sleep(3000);
 
-		ro.keyPress(KeyEvent.VK_DOWN);
-		Thread.sleep(1000);
-		ro.keyPress(KeyEvent.VK_DOWN);
-		Thread.sleep(2000);
-		ro.keyPress(KeyEvent.VK_ENTER);
-		Thread.sleep(2000);
+        ro.keyPress(KeyEvent.VK_DOWN);
+        Thread.sleep(1000);
+        ro.keyPress(KeyEvent.VK_DOWN);
+        Thread.sleep(2000);
+        ro.keyPress(KeyEvent.VK_ENTER);
+        Thread.sleep(2000);
+
 
 		By Se = By.xpath("//button[@title='Save']");
 		gl.clickElement(Se, "Save");

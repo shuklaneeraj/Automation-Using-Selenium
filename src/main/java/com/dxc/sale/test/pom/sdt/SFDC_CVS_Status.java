@@ -266,14 +266,14 @@ public class SFDC_CVS_Status {
 			System.out.println("Error in CVS call When Change STOP Account Name");
 			System.out.println("Status is not STOP in CVS call");
 		}
-		Thread.sleep(4000);
+		Thread.sleep(8000);
 
 		driver.switchTo().defaultContent();
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 
 		By tab7 = By.xpath("//ul[@class='tabBarItems slds-tabs--default__nav']/li[2]/a");
 		gl.clickElement(tab7, "tab7");
-		Thread.sleep(8000);
+		Thread.sleep(18000);
 
 	
 		// Watch Name change

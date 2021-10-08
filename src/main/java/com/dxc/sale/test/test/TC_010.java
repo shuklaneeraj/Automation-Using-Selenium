@@ -24,10 +24,10 @@ public class TC_010 {
 	public void runSdT(String SdEmID, String SdPwrd, String SSrlNum) throws Exception {
 		
 		//CVS check for CSR
-   	SFDC_CVS_CSR cvs = new SFDC_CVS_CSR();
-		cvs.beforemethod(); 
-		cvs.test(SdEmID,SdPwrd,SSrlNum);
-		cvs.afterMethod();
+//    	SFDC_CVS_CSR cvs = new SFDC_CVS_CSR();
+//		cvs.beforemethod(); 
+//		cvs.test(SdEmID,SdPwrd,SSrlNum);
+//		cvs.afterMethod();
 		
 	}
 

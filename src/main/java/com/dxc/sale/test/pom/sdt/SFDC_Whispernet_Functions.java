@@ -310,12 +310,12 @@ public class SFDC_Whispernet_Functions {
 		WebElement dne = driver.findElement(By.xpath("(//input[@value='Done'])[1]"));
 		executor.executeScript("arguments[0].click();", dne);
 		System.out.println("Clicked On Done Button ");
-		Thread.sleep(20000);
+		Thread.sleep(25000);
 		
 		WebElement popupMssg = driver.findElement(By.xpath("//div[@class='squeeze']"));  
 		String alertText = popupMssg.getText();
 		System.out.println( "Popup Message1 : "+alertText);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		By alrtText =By.xpath("//div[@class='squeeze']");
 		gl.elementContain(alrtText, "Popup Text in Entitlement Page");
@@ -361,6 +361,10 @@ public class SFDC_Whispernet_Functions {
 
 		WebElement updBtn = driver.findElement(By.xpath("//div[@id='assLocId']/descendant::button[position()=1]"));
 		executor.executeScript("arguments[0].click();", updBtn);
+		//newby
+		By newsdiok= By.xpath("//div[@id='assLocId']/div[2]//c-g-s-d-c-s-c-s-d-i-popup/section[@role='dialog']//button[@title='OK']");
+        Thread.sleep(1000);
+        gl.clickButton(newsdiok, "OK");
 		Thread.sleep(20000);
 		
 		/**driver.findElement(By.xpath("//ul[@class='slds-tabs_default__nav']"));
@@ -470,16 +474,16 @@ public class SFDC_Whispernet_Functions {
 		WebElement nonSDI = driver.findElement(By.xpath("(//div/center)[2]"));  
 		String nonSDIMssg = nonSDI.getText();
 		System.out.println( "Non SDI Message : "+nonSDIMssg);
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		
 		WebElement related = driver.findElement(By.xpath("//a[text()='Related']"));
 		executor.executeScript("arguments[0].scrollIntoView(true);", related);
 		executor.executeScript("arguments[0].click();", related);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement share = driver.findElement(By.xpath("//button[@title='Share an update...']"));
 		executor.executeScript("arguments[0].click();", share);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement shareContent = driver.findElement(By.xpath("//div[@data-placeholder='Share an update...']"));
 		executor.executeScript("arguments[0].click();", shareContent);
@@ -578,7 +582,7 @@ public class SFDC_Whispernet_Functions {
 		WebElement reentlchk = driver.findElement(By.xpath("(//img[@class='slds-truncate unchecked'])[2]"));
 		reentlchk.isSelected();
 		System.out.println("Checkbox is selected: "+reentlchk.isSelected());
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		String value1 = reentlchk.getAttribute("alt");
 		
 		//System.out.println("Checkbox is selected: "+ reentlchk.isDisplayed());
@@ -587,7 +591,7 @@ public class SFDC_Whispernet_Functions {
 		 
 		 By unchk = By.xpath("(//img[@class='slds-truncate unchecked'])[2]");
 		 gl.verifyCheckboxUnSelected(unchk, "DLVR info case");
-		 Thread.sleep(1000);
+		 Thread.sleep(3000);
 		
 	}
 	
@@ -596,7 +600,7 @@ public class SFDC_Whispernet_Functions {
 		JavascriptExecutor executor = (JavascriptExecutor) driver;
 		WebElement cases = driver.findElement(By.xpath("//a[@title='Cases']"));
 		executor.executeScript("arguments[0].click();", cases);
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 
 		WebElement lightning = driver.findElement(By.xpath("//div[contains(text(),'New Lightning Case')]"));
 		executor.executeScript("arguments[0].click();", lightning);
@@ -743,6 +747,10 @@ public class SFDC_Whispernet_Functions {
 
 		WebElement updBtn = driver.findElement(By.xpath("//div[@id='assLocId']/descendant::button[position()=1]"));
 		executor.executeScript("arguments[0].click();", updBtn);
+		//new by
+		By newsdiok2= By.xpath("//div[@id='assLocId']/div[2]//c-g-s-d-c-s-c-s-d-i-popup/section[@role='dialog']//button[@title='OK']");
+        Thread.sleep(1000);
+        gl.clickButton(newsdiok2, "OK");
 		Thread.sleep(30000);
 		
 		/**driver.findElement(By.xpath("//ul[@class='slds-tabs_default__nav']"));
@@ -866,6 +874,9 @@ public class SFDC_Whispernet_Functions {
 
 		WebElement reUpdBtn = driver.findElement(By.xpath("//div[@id='assLocId']/descendant::button[position()=1]"));
 		executor.executeScript("arguments[0].click();", reUpdBtn);
+//		By newsdiok3= By.xpath("//div[@id='assLocId']/div[2]//c-g-s-d-c-s-c-s-d-i-popup/section[@role='dialog']//button[@title='OK']");
+//        Thread.sleep(1000);
+//        gl.clickButton(newsdiok3, "OK");
 		Thread.sleep(30000);
 		
 		WebElement nonSDI = driver.findElement(By.xpath("(//div/center)[2]"));  
@@ -876,15 +887,15 @@ public class SFDC_Whispernet_Functions {
 		WebElement related = driver.findElement(By.xpath("//a[text()='Related']"));
 		executor.executeScript("arguments[0].scrollIntoView(true);", related);
 		executor.executeScript("arguments[0].click();", related);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement share = driver.findElement(By.xpath("//button[@title='Share an update...']"));
 		executor.executeScript("arguments[0].click();", share);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement shareContent = driver.findElement(By.xpath("//div[@data-placeholder='Share an update...']"));
 		executor.executeScript("arguments[0].click();", shareContent);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		Robot re = new Robot();
 		re.keyPress(KeyEvent.VK_TAB);
@@ -979,7 +990,7 @@ public class SFDC_Whispernet_Functions {
 		WebElement reentlchk = driver.findElement(By.xpath("(//img[@class='slds-truncate unchecked'])[2]"));
 		reentlchk.isSelected();
 		System.out.println("Checkbox is selected: "+reentlchk.isSelected());
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		String value1 = reentlchk.getAttribute("alt");
 		
 		//System.out.println("Checkbox is selected: "+ reentlchk.isDisplayed());
@@ -988,7 +999,7 @@ public class SFDC_Whispernet_Functions {
 		 
 		 By unchk = By.xpath("(//img[@class='slds-truncate unchecked'])[2]");
 		 gl.verifyCheckboxUnSelected(unchk, "DLVR info case");
-		 Thread.sleep(1000);
+		 Thread.sleep(3000);
 		
 	}
 	
@@ -1145,6 +1156,9 @@ public class SFDC_Whispernet_Functions {
 
 		WebElement updBtn = driver.findElement(By.xpath("//div[@id='assLocId']/descendant::button[position()=1]"));
 		executor.executeScript("arguments[0].click();", updBtn);
+		By newsdiok4= By.xpath("//div[@id='assLocId']/div[2]//c-g-s-d-c-s-c-s-d-i-popup/section[@role='dialog']//button[@title='OK']");
+        Thread.sleep(1000);
+        gl.clickButton(newsdiok4, "OK");
 		Thread.sleep(30000);
 		
 		/**driver.findElement(By.xpath("//ul[@class='slds-tabs_default__nav']"));
@@ -1292,6 +1306,11 @@ public class SFDC_Whispernet_Functions {
 		 executor.executeScript("arguments[0].click();", reval);
 		 Thread.sleep(4000);
 		 
+		 //chng
+		 By val2 = By.xpath("(//button[text()='Search Locations'])");
+			gl.clickElement(val2, "val");
+			Thread.sleep(5000);
+
 		// By chk = (By.xpath("(//span[@class='slds-radio_faux'])[27]"));
 		 WebElement chkBox = driver.findElement(By.xpath("//tr[@class='slds-hint-parent']/descendant::span[position()=2]"));
 		 executor.executeScript("arguments[0].click();", chkBox);
@@ -1305,6 +1324,10 @@ public class SFDC_Whispernet_Functions {
 
 		WebElement reUpdBtn = driver.findElement(By.xpath("//div[@id='assLocId']/descendant::button[position()=1]"));
 		executor.executeScript("arguments[0].click();", reUpdBtn);
+		//newby
+//		By newsdiok= By.xpath("//div[@id='assLocId']/div[2]//c-g-s-d-c-s-c-s-d-i-popup/section[@role='dialog']//button[@title='OK']");
+//        Thread.sleep(1000);
+//        gl.clickButton(newsdiok, "OK");
 		Thread.sleep(30000);
 		
 		WebElement nonSDI = driver.findElement(By.xpath("(//div/center)[2]"));  
@@ -1317,15 +1340,15 @@ public class SFDC_Whispernet_Functions {
 		WebElement related = driver.findElement(By.xpath("//a[text()='Related']"));
 		executor.executeScript("arguments[0].scrollIntoView(true);", related);
 		executor.executeScript("arguments[0].click();", related);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement share = driver.findElement(By.xpath("//button[@title='Share an update...']"));
 		executor.executeScript("arguments[0].click();", share);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		WebElement shareContent = driver.findElement(By.xpath("//div[@data-placeholder='Share an update...']"));
 		executor.executeScript("arguments[0].click();", shareContent);
-		Thread.sleep(1000);
+		Thread.sleep(6000);
 		
 		Robot re = new Robot();
 		re.keyPress(KeyEvent.VK_TAB);
@@ -1420,7 +1443,7 @@ public class SFDC_Whispernet_Functions {
 		WebElement reentlchk = driver.findElement(By.xpath("(//img[@class='slds-truncate unchecked'])[2]"));
 		reentlchk.isSelected();
 		System.out.println("Checkbox is selected: "+reentlchk.isSelected());
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		String value1 = reentlchk.getAttribute("alt");
 		
 		//System.out.println("Checkbox is selected: "+ reentlchk.isDisplayed());
@@ -1429,7 +1452,7 @@ public class SFDC_Whispernet_Functions {
 		 
 		 By unchk = By.xpath("(//img[@class='slds-truncate unchecked'])[2]");
 		 gl.verifyCheckboxUnSelected(unchk, "DLVR info case");
-		 Thread.sleep(1000);
+		 Thread.sleep(3000);
 		
 	}
 
